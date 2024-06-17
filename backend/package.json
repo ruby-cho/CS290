@@ -1,0 +1,19 @@
+{
+  "name": "purchases-starter-backend",
+  "version": "2024",
+  "description": "Contains Minji Cho's personal purchases in 2024.",
+  "main": "purchases-controller.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon purchases-controller.mjs"
+  },
+  "author": "Minji Cho",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "rest": "^2.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
